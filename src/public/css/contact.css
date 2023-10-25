@@ -1,0 +1,163 @@
+* {
+    /* border: solid 1px blue; */
+}
+
+.form__table {
+    margin: 0 auto;
+}
+
+.contact__form--header h1 {
+    text-align: center;
+}
+
+.form__label-1 {
+    text-align: left;
+    margin: 0;
+    width: 200px;
+}
+
+.form__label-2 {
+    text-align: left;
+    margin: 24px 0 0;
+    width: 200px;
+}
+
+.form__label-3 {
+    text-align: left;
+    margin: 40px 0 0;
+    width: 200px;
+}
+
+.form__label--item {
+    font-weight: bold;
+}
+
+.form__label--required {
+    color:red;
+}
+
+.contact__form{
+    height: 40px;
+    width: 100%;
+    font-size: 16px;
+}
+
+.contact__form--name {
+    display: flex;
+}
+
+.contact__form--name-first {
+    margin-right: 4px;
+}
+
+.contact__form--layout {
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    margin: 24px 0 0 8px ;
+    width: 98%;
+    height: 40px;
+}
+
+.contact__form--example {
+    color: #888;
+    display: flex;
+    height: 24px;
+    margin:0 0 0 24px;
+}
+
+.contact__form--example-name-1 {
+    margin: 0 128px 0 8px;
+}
+
+.contact__form--example-name-2 {
+    margin: 0;
+}
+
+.contact__form--example-post {
+margin-left: 56px;
+}
+
+.contact__form--gender {
+    display: flex;
+    margin-top: 12px;
+}
+
+.contact__form--gender p {
+    margin: 16px 40px 0 0;
+}
+
+.contact__form--gender-female , .contact__form--gender-male {
+    margin-top: 16px;
+    margin-left: 8px;
+    margin-right: 16px;
+    transform: scale(2.5);
+}
+
+.contact__form--mail, .contact__form--address, .contact__form--building {
+    width: 100%;
+    margin-top: 8px;
+}
+
+.contact__form--mail {
+    margin-top: 24px;
+}
+
+.contact__form--post {
+    margin-left: 16px;
+}
+
+.contact__form--address {
+    margin-top: 24px;
+}
+
+.contact__form--building {
+    margin-top: 24px;
+}
+
+.contact__form--opinion {
+    margin-top: 24px;
+    padding: 0 0 120px;
+    overflow-wrap: normal;
+}
+
+.contact__form--button-submit {
+    display: block;
+    margin: 40px auto 0;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    width: 160px;
+    height: 40px;
+    cursor: pointer;
+}
+
+/* 
+confirm
+*/
+
+.contact__form--name-first-confirm, .contact__form--name-last-confirm {
+    margin-top: 32px;
+}
+
+.contact__form--mail-confirm {
+    margin-top: 56px;
+}
+
+.contact__form--post-confirm {
+    margin-top: 32px;
+    margin-left: 16px;
+    font-weight: normal;
+}
+
+.contact__form--address-confirm {
+    margin-top: 56px;
+}
+
+.contact__form--opinion-confirm {
+    margin-top: 80px;
+}
+
+.contact__form--back {
+    text-align: center;
+}

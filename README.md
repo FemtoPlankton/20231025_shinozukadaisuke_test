@@ -1,0 +1,1 @@
+# 20231025_shinozukadaisuke_test
